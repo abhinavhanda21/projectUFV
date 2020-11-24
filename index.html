@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>UFV 2.0</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("b.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">STAKEHOLDERS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">PROJECT MANAGEMENT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 8am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">UNIVERSITY OF THE<br> FRASER VALLEY</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">33844 King Rd, Abbotsford, BC V2S 7M8</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE PROJECT</span></h5>
+   <p>Our goal for this project is to enhace our  <a href="https://www.ufv.ca/">university</a> with the funds provided from our great leader Justin Trudeau. This entails by adding a new building which will include things like a better student welfare commitee, a cricket stadium and a developer club. </p>
+                <p>This project benefits the University as it would be very good publicity and will atract more students as they'll be attracted and will feel safe at same time. Furthermore, it would be a benefit to the community through all the new jobs created. </p>
+                    <p>Among the Prime minister, University and the city of Abbotsford, some other key stakeholders include the provincial government and cricket canada. It is important to consider the risks to this project, if there is no increase in student admission all the money we had spent on the prior steps will have no return on investment. </p>
+<div style="background-image: url('f.jpg');">
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">STAKEHOLDERS</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">CHAMPION</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+
+      <p class="w3-text-grey">The project sponsors i.e. the federal government of Canada and Canadian President Justin Trudeau in accordance with UFV Board of Directors.</p><br>
+    
+      <p class="w3-text-grey">Contractors will include the Construction company and Suppliers of raw material.</p><br>
+    
+      <p class="w3-text-grey">Consultants who will be responsible for designing the building and will provide with an initial blueprint of the building in the planning phase of the project development process.</p><br>
+    
+      <p class="w3-text-grey">Other stakeholders that will be involved with the project are City of Abbotsford, Province of BC since the building will be constructed near UFV in Abbotsford and Canada Cricket organisation which will help in advertising young talent of fraser valley by holding tournamnets at our stadium.</p><br>
+    
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-grey">College staff, students and volunteers, as these people would be needed to advertise our idea and conduct workshops for awareness for the opportunities, the significance of the offered courses and how can one plan and pursue their future profession via the offered career options.</p><br>
+
+    </div>  
+    <img src="campus.png" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">COST BREAKDOWN</span></h5>
+                    <p>The construction site would cost $50million, the developer lab alone would take 100 million.</p>
+
+                    <p>The developer lab will have around 1000 high end PCs, each PC would cost about $52000. Also, another $100,000 will be aloted for A.I. , robotics, web servers and other cloud computing services for students.</p>
+                     <p>A $60,000,000 for cricket stadium and another $90,000 cricket kits, jersey and a cafeteria setup for energy drinks and quick meals. </p>
+                    <p>Maintenance and upkeep for the next 3 years are estimated to be about $150 million dollars.</p>
+                    <p>Another $50 million dollars for the classes and $150 million will be for staff incentives to further their own education alongside the students and hire more professors.</p>
+                    
+    
+  </div>
+</div>
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WORK BREAKDOWN</span></h5>
+            
+<img src="flowpm.jpg" alt="Paris" style="width:100%;">
+                    
+    
+  </div>
+</div>
+
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Gantt Chart (Timelines & Deliverables) :</span></h5>
+            
+<iframe src="gantt.pdf#toolbar=0" width="100%" height="500px">
+    </iframe>                    
+    
+  </div>
+</div>
+
+<div class="w3-container" id="where" style="padding-bottom:64px;">
+  <div class="w3-content" style="max-width:900px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SWOT (strengths, weaknesses, opportunities, and threats)</span></h5>
+                     <p>This introduction of a new game would not only pull in a lot of talent but also help create a new ambition, a new career path for the students yet deciding their professional future. It would help empower the Cricket Industry.It'd also empower our University of Fraser Valley for offering such unique career opportunities.</p>
+
+                    <p>There would be a lot of opportunities for the students who only love practical application of advance techonlogy subjects and have no interest to study other irrelevant courses which does not excite them. It would offer proper certifications and degrees for the relevant courses.</p>
+                     <p>The weakness is being prominent in this plan is, of course, an ambitious workload in just over a year's time. We can obviously run into issues that make us not reach our expected time to live.</p>
+                     <p> The threat to the proposed project would be people underestimating cricket as a profession, and not let their child enroll for a career in it. Also, people may not like the idea of getting there children into a certificate program over bachelor degree.</p>
+    
+  </div>
+</div>
+<div class
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RISKS</span></h5>
+                                       <p>Not permitted to buy land</p>
+
+                        <p>Exceeds Budget</p>
+
+                        <p>Missing the Deadline</p>
+
+                         <p>Low or no availability of the involved hardware.</p>
+
+                            <p>Low on funds.</p>
+
+                            <p>No Masters Degree</p>
+
+                            <p>No raise in enrollment.</p>
+
+                               <p>Hardware Broke Down</p>
+
+                               <p>Power Outages</p>
+    
+  </div>
+</div>
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CITATIONS</span></h5>
+
+            <p>Real Estate for Sale, Listings. “Abbotsford, BC MLS® Listings &amp;<a href="www.rew.ca/properties/areas/abbotsford-bc."> Real Estate for Sale.” REW, 2020,</a>  </p>
+                     <p>canada, cricket. “CRICKET IN CANADA.” Cricket Canada    <a href="www.cricketcanada.org/.">Cricket Canada    </a>, 6 Nov. 2020.  </p>
+                                          <p>strategy, A.I. “Pan-Canadian Artificial Intelligence Strategy.” CIFAR, 2020, www.cifar.ca/ai/pan-canadian-artificial-intelligence-strategy.    <a href="www.cricketcanada.org/.">CIFAR   </a> </p>
+
+          <p> Project management plan – The 12 core components. (n.d.). ProjectEngineer. <a href="https://www.projectengineer.net/project-management-plan-the-12-core-components/.">Project components </a></p>
+
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
